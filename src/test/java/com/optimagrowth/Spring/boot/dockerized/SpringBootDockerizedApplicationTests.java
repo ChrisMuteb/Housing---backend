@@ -23,8 +23,8 @@ class SpringBootDockerizedApplicationTests {
 		Boolean wifi = true;
 		Boolean laundry = true;
 
-		HousingLocationRequest housingLocationRequest = new HousingLocationRequest(name, city, state, photo, availableUnits, wifi, laundry);
-		HousingLocationRequest housingLocationRequest2 = new HousingLocationRequest(name, city, state, photo, availableUnits, wifi, laundry);
+		HousingLocationRequest housingLocationRequest = new HousingLocationRequest(1L, name, city, state, photo, availableUnits, wifi, laundry);
+		HousingLocationRequest housingLocationRequest2 = new HousingLocationRequest(2L,name, city, state, photo, availableUnits, wifi, laundry);
 
 
 		assertEquals(name, housingLocationRequest.name());
